@@ -1,7 +1,7 @@
 # i3wm-shutdown-options
 ##This is feature is for all the i3 users who have been struggling to set up customised shortcuts for shutdown,login and reboot options
 The snippet of code can be found down.<br>
-
+**
 #bindsym $mod+x mode "exit: [l]ogout, [r]eboot, [s]hutdown"<br>
 mode "exit: [l]ogout, [r]eboot, [s]hutdown" {<br>
 <br>
@@ -13,7 +13,7 @@ mode "exit: [l]ogout, [r]eboot, [s]hutdown" {<br>
 }<br>
 bindsym $mod+x mode "exit: [l]ogout, [r]eboot, [s]hutdown" <br>
 
-
+**
 
 
 
