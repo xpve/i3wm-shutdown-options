@@ -18,10 +18,10 @@ bindsym $mod+x mode "exit: [l]ogout, [r]eboot, [s]hutdown" <br>
 
 
 This is code of snippet for setting up the shortcuts,update the above code using the config file of i3wm.<br>
-The path for the config file of i3wm is <br>
-/home/_your_host_name/.config/i3/config <br>
+# The path for the config file of i3wm is <br>
+## /home/_your_host_name/.config/i3/config <br>
 Using any text editor you can edit the config file. <br>
-If you need to set up customised shortcuts <br>
+# If you need to set up customised shortcuts <br>
 
-bindsym $Your_custom_shortcut exec command_name <br>
+## bindsym $Your_custom_shortcut exec command_name <br>
 
