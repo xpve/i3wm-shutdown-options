@@ -2,7 +2,7 @@
 # i3wm-shutdown-options
 > This is feature is for all the i3 users who have been struggling to set up customised shortcuts for shutdown,login and reboot options
 The snippet of code can be found down.<br>
-```
+```bash
 #bindsym $mod+x mode "exit: [l]ogout, [r]eboot, [s]hutdown"<br>
 mode "exit: [l]ogout, [r]eboot, [s]hutdown" {<br>
 <br>
@@ -21,10 +21,15 @@ bindsym $mod+x mode "exit: [l]ogout, [r]eboot, [s]hutdown" <br>
 
 > This is code of snippet for setting up the shortcuts,update the above code using the config file of i3wm.<br>
 > The path for the config file of i3wm is <br>
-``` /home/_your_host_name/.config/i3/config <br> ```
 
-> Using any text editor you can edit the config file. <br>
+```bash
+/home/_your_host_name/.config/i3/config  
+```
+
+> Using any text editor you can edit the config file. 
 # If you need to set up customised shortcuts <br>
 
-``` bindsym $Your_custom_shortcut exec command_name <br> ```
+```bash
+bindsym $Your_custom_shortcut exec command_name  
+```
 
